@@ -1,0 +1,123 @@
+.logomain{
+  height:120px;
+  width:120px;
+  margin:5px 15px;
+  border-width:4px;
+  border-radius: 18px;
+  border-style:solid;
+}
+.navbg{
+  background-image:url("https://img.freepik.com/free-vector/hand-drawn-shopping-pattern-design_23-2149628702.jpg?size=626&ext=jpg&ga=GA1.1.903846456.1696142222&semt=ais");
+  background-repeat:no no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  margin:none;
+}
+.navitems{
+  color:rgb(16, 9, 9);
+  font-weight:bold;
+  font-size:22px;
+  padding:0px 5px;
+  margin:5px 15px;
+}
+h1{
+  font-size:32px;
+  color:#8d63b0;
+  width:55vw;
+  margin:0px 15px 15px 0px;
+  
+}
+h2{
+  font-size:30px;
+  color:#3b294a;
+  width:55vw;
+  margin:20px 15px 15px 0px;
+}
+h2.span{
+  color:#c2c930;
+  font-size:43px;
+}
+.off70{
+  color:#b83258;
+  font-weight:900;
+}
+.stylebutton{
+  cursor:pointer;
+  transition:width 2s,height 2s,transform 2s;
+  margin-left:10px;
+}
+.stylebutton:hover{
+  width:150px;
+  height:50px;
+  transform:rotate(360deg);
+  
+}
+#bars{
+  font-size:1.5rem;
+  padding:5px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.2s linear;
+  color:rgb(234, 7, 41);
+ 
+}
+#bars:hover,
+#bars.active{
+  color:black;
+
+}
+
+#home{
+  background-image: url("https://img.freepik.com/free-photo/portrait-cute-happy-girl-kissing-her-credit-card-after-buying-gifts-holding-shopping-bags-standin_1258-125577.jpg?size=626&ext=jpg&ga=GA1.1.903846456.1696142222&semt=ais");
+  background-size:cover;
+  background-position:top 40px center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center; 
+}
+#navbarSupportedContent > ul{
+  margin:1rem;
+  justify-content: flex-end;
+  align-items:flex-end;
+  text-align:right;
+}
+#navbarSupportedContent>ul>li:nth-child(n)>a{
+  padding:10px 0px;
+}
+.menimage{
+  height:350px;
+  width:350px;
+}
+.card{
+  display:grid;
+}
+.card-img-top{
+  height:460px;
+}
+.menhead{
+  color: #466aa3;
+  font-size:33px;
+  font-family:Roboto;
+}
+.addbtn{
+  border-width:2px;
+  border-color:black;
+}
+.footerimage{
+  height:120px;
+  width:120px;
+  border-style:solid;
+  margin-bottom:20px;
+  margin-left:20px;
+  align-self: center;
+}
+.footerpara{
+  color:black;
+  font-size:25px;
+  font-weight:600;
+  
+}
